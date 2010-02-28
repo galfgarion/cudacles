@@ -1,4 +1,6 @@
 /*
+ *  Nathan Black
+ *
  *  Lab exercise 5.0 
  *  CSc 474, Computer Graphics
  *  Copyright 2000-2002 Chris Buckalew
@@ -37,13 +39,15 @@
  *------------------------------------------------------------------*/
 
 
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <gl/gl.h>
-#include <gl/glu.h>
-#include <gl/glut.h>
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glut.h>
 
 // some function prototypes
 void display(void);
